@@ -97,6 +97,27 @@ body {
 .city {
     display: flex;
     flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.city .airplane-container {
+    position: absolute;
+    right: 0%;
+    top: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.city .airplane-container #airplane {
+    width: 300px;
+}
+.city .airplane-container .message {
+    background-color: white;
+    padding: 50px;
+    margin-left: 20px;
+
 }
 
 .city-fade {
@@ -351,7 +372,6 @@ body {
 
     .hero-text {
         top: 0;
-        scale: 1.3;
     }
 
     .city {

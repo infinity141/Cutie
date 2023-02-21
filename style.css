@@ -115,9 +115,9 @@ body {
 }
 .city .airplane-container .message {
     background-color: white;
-    padding: 50px;
+    padding: 30px 50px;
     margin-left: 20px;
-
+    display: flex;
 }
 
 .city-fade {
